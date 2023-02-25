@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Results summary component</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script src="main.js" defer></script>
+  </head>
+  <body class="min-h-[100vh] text-[18px] font-medium grid place-content-center">
+    <main class="max-w-3xl lg:grid grid-cols-2">
+      <article
+        class="bg-gradient-to-b from-lg-bg-1 to-lg-bg-2 text-center text-light-lavender py-7 grid gap-5 rounded-b-3xl lg:rounded-3xl"
+      >
+        <h3 class="text-xl">Your Result</h3>
+        <div
+          class="bg-gradient-to-b from-lg-bg-3 to-lg-bg-4 m-auto rounded-full py-7 px-10"
+        >
+          <h1 class="text-7xl text-white">76</h1>
+          <p>of 100</p>
+        </div>
+        <h2 class="text-2xl text-white">Great</h2>
+        <p class="px-20 lg:px-16">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </article>
+      <article class="px-10 rounded-r-3xl lg:-ml-4 lg:my-auto lg:shadow-custom">
+        <h3 class="text-xl font-bold my-5">Summary</h3>
+        <div class="results | grid gap-4"></div>
+        <button
+          class="bg-dark-gray-blue text-white py-3 rounded-full my-7 w-full hover:bg-gradient-to-b from-lg-bg-1 to-lg-bg-2"
+        >
+          Continue
+        </button>
+      </article>
+    </main>
+  </body>
+</html>
