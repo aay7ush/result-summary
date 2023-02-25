@@ -12,7 +12,7 @@ Building realistic projects to improve my front-end skills.
 
 ### Links
 
-- Live Site URL: [Results summary component](https://huddle-land1ng-page.netlify.app/)
+- Live Site URL: [Results summary component](https://result-summary-c0mponent.netlify.app/)
 
 ## Built with
 
